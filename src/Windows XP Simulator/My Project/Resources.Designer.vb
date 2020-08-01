@@ -4252,12 +4252,11 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
+        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         '''</summary>
-        Friend ReadOnly Property title() As Byte()
+        Friend ReadOnly Property title() As System.IO.UnmanagedMemoryStream
             Get
-                Dim obj As Object = ResourceManager.GetObject("title", resourceCulture)
-                Return CType(obj,Byte())
+                Return ResourceManager.GetStream("title", resourceCulture)
             End Get
         End Property
         
