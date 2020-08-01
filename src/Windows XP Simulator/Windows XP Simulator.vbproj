@@ -77,6 +77,11 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="WinSimStartup.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -90,11 +95,6 @@
       <DependentUpon>Application.myapp</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <Compile Include="My Project\Resources.Designer.vb">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <Compile Include="My Project\Settings.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -107,9 +107,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -123,40 +123,6 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
-    <None Include="Resources\appstar2.ani" />
-    <None Include="Resources\appstar3.ani" />
-    <None Include="Resources\appstart.ani" />
-    <None Include="Resources\banana.ani" />
-    <None Include="Resources\barber.ani" />
-    <None Include="Resources\coin.ani" />
-    <None Include="Resources\counter.ani" />
-    <None Include="Resources\dinosau2.ani" />
-    <None Include="Resources\dinosaur.ani" />
-    <None Include="Resources\drum.ani" />
-    <None Include="Resources\fillitup.ani" />
-    <None Include="Resources\hand.ani" />
-    <None Include="Resources\handapst.ani" />
-    <None Include="Resources\handnesw.ani" />
-    <None Include="Resources\handno.ani" />
-    <None Include="Resources\handns.ani" />
-    <None Include="Resources\handnwse.ani" />
-    <None Include="Resources\handwait.ani" />
-    <None Include="Resources\handwe.ani" />
-    <None Include="Resources\horse.ani" />
-    <None Include="Resources\hourgla2.ani" />
-    <None Include="Resources\hourgla3.ani" />
-    <None Include="Resources\hourglas.ani" />
-    <None Include="Resources\metronom.ani" />
-    <None Include="Resources\piano.ani" />
-    <None Include="Resources\rainbow.ani" />
-    <None Include="Resources\raindrop.ani" />
-    <None Include="Resources\sizenesw.ani" />
-    <None Include="Resources\sizens.ani" />
-    <None Include="Resources\sizenwse.ani" />
-    <None Include="Resources\sizewe.ani" />
-    <None Include="Resources\stopwtch.ani" />
-    <None Include="Resources\vanisher.ani" />
-    <None Include="Resources\wagtail.ani" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\shell32_10.ico" />
@@ -861,258 +827,6 @@
     <None Include="Resources\shell32_16721.ico" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\shell32_16739.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16741.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16742.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16743.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16744.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16746.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16747.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16748.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16749.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16750.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16751.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16752.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16753.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16754.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16755.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16756.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16757.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16758.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16759.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16760.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16761.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16762.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16763.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16767.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16768.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16769.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16770.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16771.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16772.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16773.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16774.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16775.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16776.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16777.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16778.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16779.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16780.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16781.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16782.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16783.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16784.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16785.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16786.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16787.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16788.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16789.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16790.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16791.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16792.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16793.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16794.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16795.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16796.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16797.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16798.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16799.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16800.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16801.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16802.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16803.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16804.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16806.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16807.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16810.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16811.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16812.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16813.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16814.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16818.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16819.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16820.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16821.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16822.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16823.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16824.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_16825.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_62998.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_62999.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_63000.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_63001.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_63008.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_63009.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_63010.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shell32_63011.ico" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\shell32_1.ico" />
   </ItemGroup>
   <ItemGroup>
@@ -1254,456 +968,6 @@
     <None Include="Resources\ding.wav" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\3dgwe.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\3dsmove.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\3dsns.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\3dsnwse.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\3dwarro.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\3dwmove.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\3dwnesw.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\3dwno.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\3dwns.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\3dwnwse.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\3dwwe.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\arrow_i.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\arrow_il.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\arrow_im.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\arrow_l.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\arrow_m.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\arrow_r.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\arrow_rl.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\arrow_rm.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\beam_i.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\beam_il.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\beam_im.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\beam_l.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\beam_m.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\beam_r.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\beam_rl.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\beam_rm.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\busy_i.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\busy_il.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\busy_im.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\busy_l.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\busy_m.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\busy_r.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\busy_rl.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\busy_rm.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\cross.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\cross_i.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\cross_il.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\cross_im.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\cross_l.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\cross_m.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\cross_r.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\cross_rl.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\cross_rm.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\harrow.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\hcross.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\help_i.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\help_il.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\help_im.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\help_l.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\help_m.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\help_r.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\help_rl.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\help_rm.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\hibeam.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\hmove.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\hnesw.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\hnodrop.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\hns.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\hnwse.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\hwe.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\lappstrt.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\larrow.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\lcross.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\libeam.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\lmove.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\lnesw.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\lnodrop.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\lns.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\lnwse.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\lwait.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\lwe.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\move_i.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\move_il.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\move_im.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\move_l.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\move_m.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\move_r.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\move_rl.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\move_rm.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\no_i.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\no_il.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\no_im.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\no_l.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\no_m.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\no_r.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\no_rl.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\no_rm.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\pen_i.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\pen_il.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\pen_im.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\pen_l.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\pen_m.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\pen_r.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\pen_rl.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\pen_rm.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\size1_i.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\size1_il.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\size1_im.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\size1_l.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\size1_m.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\size1_r.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\size1_rl.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\size1_rm.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\size2_i.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\size2_il.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\size2_im.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\size2_l.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\size2_m.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\size2_r.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\size2_rl.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\size2_rm.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\size3_i.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\size3_il.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\size3_im.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\size3_l.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\size3_m.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\size3_r.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\size3_rl.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\size3_rm.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\size4_i.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\size4_il.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\size4_im.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\size4_l.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\size4_m.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\size4_r.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\size4_rl.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\size4_rm.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\up_i.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\up_il.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\up_im.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\up_l.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\up_m.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\up_r.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\up_rl.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\up_rm.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\wait_i.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\wait_il.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\wait_im.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\wait_l.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\wait_m.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\wait_r.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\wait_rl.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\wait_rm.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\3dgarro.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\3dgmove.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\3dgnesw.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\3dgno.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\3dgns.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\3dgnwse.cur" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Windows xp.ico" />
   </ItemGroup>
   <ItemGroup>
@@ -1717,6 +981,99 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\title.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows-xp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cursor_13.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cursor_14.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cursor_15.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cursor_16.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cursor_17.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cursor_18.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cursor_19.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cursor_20.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cursor_21.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cursor_22.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cursor_23.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cursor_24.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cursor_25.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cursor_26.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cursor_27.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cursor_28.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CursorsXP.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Beam.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cursor_1.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cursor_3.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cursor_4.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cursor_5.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cursor_6.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cursor_7.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cursor_8.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cursor_9.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cursor_10.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cursor_11.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cursor_12.cur" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

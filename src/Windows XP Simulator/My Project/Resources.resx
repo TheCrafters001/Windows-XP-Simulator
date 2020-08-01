@@ -118,92 +118,8 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="appstar2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\appstar2.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="appstar3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\appstar3.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="appstart" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\appstart.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="arrow_i" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\arrow_i.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="arrow_il" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\arrow_il.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="arrow_im" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\arrow_im.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="arrow_l" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\arrow_l.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="arrow_m" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\arrow_m.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="arrow_r" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\arrow_r.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="arrow_rl" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\arrow_rl.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="arrow_rm" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\arrow_rm.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="banana" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\banana.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="barber" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\barber.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="beam_i" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\beam_i.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="beam_il" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\beam_il.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="beam_im" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\beam_im.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="beam_l" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\beam_l.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="beam_m" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\beam_m.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="beam_r" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\beam_r.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="beam_rl" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\beam_rl.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="beam_rm" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\beam_rm.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="busy_i" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\busy_i.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="busy_il" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\busy_il.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="busy_im" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\busy_im.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="busy_l" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\busy_l.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="busy_m" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\busy_m.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="busy_r" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\busy_r.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="busy_rl" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\busy_rl.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="busy_rm" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\busy_rm.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="Beam" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Beam.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="chimes" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\chimes.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -211,266 +127,101 @@
   <data name="chord" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\chord.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="coin" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\coin.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="CursorsXP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CursorsXP.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="counter" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\counter.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="Cursor_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cursor_1.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="cross" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cross.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="Cursor_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cursor_10.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="cross_i" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cross_i.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="Cursor_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cursor_11.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="cross_il" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cross_il.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="Cursor_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cursor_12.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="cross_im" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cross_im.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="Cursor_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cursor_13.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="cross_l" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cross_l.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="Cursor_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cursor_14.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="cross_m" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cross_m.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="Cursor_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cursor_15.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="cross_r" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cross_r.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="Cursor_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cursor_16.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="cross_rl" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cross_rl.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="Cursor_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cursor_17.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="cross_rm" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cross_rm.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="Cursor_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cursor_18.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Cursor_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cursor_19.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Cursor_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cursor_20.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Cursor_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cursor_21.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Cursor_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cursor_22.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Cursor_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cursor_23.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Cursor_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cursor_24.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Cursor_25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cursor_25.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Cursor_26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cursor_26.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Cursor_27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cursor_27.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Cursor_28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cursor_28.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Cursor_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cursor_3.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Cursor_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cursor_4.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Cursor_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cursor_5.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Cursor_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cursor_6.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Cursor_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cursor_7.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Cursor_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cursor_8.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Cursor_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cursor_9.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="ding" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ding.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="dinosau2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dinosau2.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="dinosaur" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dinosaur.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="drum" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\drum.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="fillitup" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\fillitup.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="flourish" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\flourish.mid;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="hand" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hand.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="handapst" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\handapst.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="handnesw" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\handnesw.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="handno" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\handno.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="handns" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\handns.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="handnwse" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\handnwse.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="handwait" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\handwait.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="handwe" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\handwe.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="harrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\harrow.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="hcross" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hcross.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="help_i" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\help_i.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="help_il" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\help_il.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="help_im" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\help_im.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="help_l" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\help_l.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="help_m" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\help_m.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="help_r" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\help_r.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="help_rl" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\help_rl.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="help_rm" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\help_rm.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="hibeam" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hibeam.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="hmove" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hmove.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="hnesw" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hnesw.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="hnodrop" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hnodrop.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="hns" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hns.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="hnwse" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hnwse.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="horse" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\horse.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="hourgla2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hourgla2.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="hourgla3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hourgla3.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="hourglas" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hourglas.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="hwe" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hwe.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lappstrt" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lappstrt.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="larrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\larrow.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lcross" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lcross.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="libeam" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\libeam.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lmove" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lmove.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lnesw" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lnesw.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lnodrop" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lnodrop.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lns" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lns.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lnwse" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lnwse.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lwait" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lwait.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lwe" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lwe.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="metronom" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\metronom.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="move_i" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\move_i.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="move_il" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\move_il.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="move_im" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\move_im.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="move_l" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\move_l.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="move_m" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\move_m.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="move_r" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\move_r.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="move_rl" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\move_rl.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="move_rm" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\move_rm.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="notify" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\notify.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="no_i" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\no_i.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="no_il" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\no_il.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="no_im" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\no_im.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="no_l" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\no_l.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="no_m" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\no_m.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="no_r" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\no_r.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="no_rl" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\no_rl.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="no_rm" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\no_rm.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="onestop" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\onestop.mid;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pen_i" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pen_i.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pen_il" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pen_il.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pen_im" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pen_im.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pen_l" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pen_l.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pen_m" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pen_m.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pen_r" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pen_r.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pen_rl" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pen_rl.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pen_rm" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pen_rm.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="piano" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\piano.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="rainbow" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rainbow.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="raindrop" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\raindrop.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="recycle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\recycle.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1210,119 +961,8 @@
   <data name="shell32_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\shell32_9.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="size1_i" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\size1_i.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="size1_il" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\size1_il.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="size1_im" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\size1_im.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="size1_l" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\size1_l.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="size1_m" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\size1_m.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="size1_r" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\size1_r.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="size1_rl" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\size1_rl.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="size1_rm" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\size1_rm.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="size2_i" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\size2_i.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="size2_il" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\size2_il.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="size2_im" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\size2_im.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="size2_l" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\size2_l.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="size2_m" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\size2_m.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="size2_r" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\size2_r.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="size2_rl" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\size2_rl.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="size2_rm" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\size2_rm.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="size3_i" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\size3_i.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="size3_il" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\size3_il.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="size3_im" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\size3_im.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="size3_l" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\size3_l.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="size3_m" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\size3_m.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="size3_r" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\size3_r.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="size3_rl" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\size3_rl.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="size3_rm" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\size3_rm.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="size4_i" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\size4_i.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="size4_il" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\size4_il.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="size4_im" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\size4_im.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="size4_l" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\size4_l.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="size4_m" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\size4_m.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="size4_r" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\size4_r.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="size4_rl" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\size4_rl.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="size4_rm" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\size4_rm.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="sizenesw" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sizenesw.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="sizens" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sizens.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="sizenwse" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sizenwse.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="sizewe" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sizewe.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="start" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\start.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="stopwtch" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\stopwtch.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="tada" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tada.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1330,65 +970,14 @@
   <data name="title" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\title.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="town" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\town.mid;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="up_i" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\up_i.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="up_il" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\up_il.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="up_im" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\up_im.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="up_l" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\up_l.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="up_m" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\up_m.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="up_r" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\up_r.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="up_rl" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\up_rl.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="up_rm" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\up_rm.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="vanisher" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vanisher.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="wagtail" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\wagtail.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="wait_i" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\wait_i.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="wait_il" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\wait_il.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="wait_im" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\wait_im.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="wait_l" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\wait_l.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="wait_m" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\wait_m.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="wait_r" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\wait_r.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="wait_rl" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\wait_rl.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="wait_rm" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\wait_rm.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="windows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Windows_xp" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Windows xp.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows_xp1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows-xp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Windows_XP_Balloon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Windows XP Balloon.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1467,56 +1056,5 @@
   </data>
   <data name="Windows_XP_Startup" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Windows XP Startup.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="_3dgarro" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\3dgarro.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="_3dgmove" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\3dgmove.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="_3dgnesw" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\3dgnesw.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="_3dgno" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\3dgno.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="_3dgns" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\3dgns.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="_3dgnwse" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\3dgnwse.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="_3dgwe" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\3dgwe.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="_3dsmove" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\3dsmove.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="_3dsns" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\3dsns.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="_3dsnwse" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\3dsnwse.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="_3dwarro" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\3dwarro.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="_3dwmove" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\3dwmove.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="_3dwnesw" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\3dwnesw.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="_3dwno" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\3dwno.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="_3dwns" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\3dwns.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="_3dwnwse" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\3dwnwse.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="_3dwwe" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\3dwwe.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

@@ -63,459 +63,9 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Byte[].
         '''</summary>
-        Friend ReadOnly Property _3dgarro() As Byte()
+        Friend ReadOnly Property Beam() As Byte()
             Get
-                Dim obj As Object = ResourceManager.GetObject("_3dgarro", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property _3dgmove() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("_3dgmove", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property _3dgnesw() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("_3dgnesw", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property _3dgno() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("_3dgno", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property _3dgns() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("_3dgns", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property _3dgnwse() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("_3dgnwse", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property _3dgwe() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("_3dgwe", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property _3dsmove() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("_3dsmove", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property _3dsns() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("_3dsns", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property _3dsnwse() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("_3dsnwse", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property _3dwarro() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("_3dwarro", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property _3dwmove() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("_3dwmove", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property _3dwnesw() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("_3dwnesw", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property _3dwno() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("_3dwno", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property _3dwns() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("_3dwns", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property _3dwnwse() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("_3dwnwse", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property _3dwwe() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("_3dwwe", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property appstar2() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("appstar2", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property appstar3() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("appstar3", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property appstart() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("appstart", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property arrow_i() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("arrow_i", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property arrow_il() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("arrow_il", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property arrow_im() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("arrow_im", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property arrow_l() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("arrow_l", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property arrow_m() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("arrow_m", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property arrow_r() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("arrow_r", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property arrow_rl() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("arrow_rl", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property arrow_rm() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("arrow_rm", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property banana() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("banana", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property barber() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("barber", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property beam_i() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("beam_i", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property beam_il() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("beam_il", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property beam_im() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("beam_im", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property beam_l() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("beam_l", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property beam_m() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("beam_m", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property beam_r() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("beam_r", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property beam_rl() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("beam_rl", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property beam_rm() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("beam_rm", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property busy_i() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("busy_i", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property busy_il() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("busy_il", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property busy_im() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("busy_im", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property busy_l() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("busy_l", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property busy_m() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("busy_m", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property busy_r() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("busy_r", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property busy_rl() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("busy_rl", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property busy_rm() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("busy_rm", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("Beam", resourceCulture)
                 Return CType(obj,Byte())
             End Get
         End Property
@@ -541,9 +91,9 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Byte[].
         '''</summary>
-        Friend ReadOnly Property coin() As Byte()
+        Friend ReadOnly Property Cursor_1() As Byte()
             Get
-                Dim obj As Object = ResourceManager.GetObject("coin", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("Cursor_1", resourceCulture)
                 Return CType(obj,Byte())
             End Get
         End Property
@@ -551,9 +101,9 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Byte[].
         '''</summary>
-        Friend ReadOnly Property counter() As Byte()
+        Friend ReadOnly Property Cursor_10() As Byte()
             Get
-                Dim obj As Object = ResourceManager.GetObject("counter", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("Cursor_10", resourceCulture)
                 Return CType(obj,Byte())
             End Get
         End Property
@@ -561,9 +111,9 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Byte[].
         '''</summary>
-        Friend ReadOnly Property cross() As Byte()
+        Friend ReadOnly Property Cursor_11() As Byte()
             Get
-                Dim obj As Object = ResourceManager.GetObject("cross", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("Cursor_11", resourceCulture)
                 Return CType(obj,Byte())
             End Get
         End Property
@@ -571,9 +121,9 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Byte[].
         '''</summary>
-        Friend ReadOnly Property cross_i() As Byte()
+        Friend ReadOnly Property Cursor_12() As Byte()
             Get
-                Dim obj As Object = ResourceManager.GetObject("cross_i", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("Cursor_12", resourceCulture)
                 Return CType(obj,Byte())
             End Get
         End Property
@@ -581,9 +131,9 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Byte[].
         '''</summary>
-        Friend ReadOnly Property cross_il() As Byte()
+        Friend ReadOnly Property Cursor_13() As Byte()
             Get
-                Dim obj As Object = ResourceManager.GetObject("cross_il", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("Cursor_13", resourceCulture)
                 Return CType(obj,Byte())
             End Get
         End Property
@@ -591,9 +141,9 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Byte[].
         '''</summary>
-        Friend ReadOnly Property cross_im() As Byte()
+        Friend ReadOnly Property Cursor_14() As Byte()
             Get
-                Dim obj As Object = ResourceManager.GetObject("cross_im", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("Cursor_14", resourceCulture)
                 Return CType(obj,Byte())
             End Get
         End Property
@@ -601,9 +151,9 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Byte[].
         '''</summary>
-        Friend ReadOnly Property cross_l() As Byte()
+        Friend ReadOnly Property Cursor_15() As Byte()
             Get
-                Dim obj As Object = ResourceManager.GetObject("cross_l", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("Cursor_15", resourceCulture)
                 Return CType(obj,Byte())
             End Get
         End Property
@@ -611,9 +161,9 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Byte[].
         '''</summary>
-        Friend ReadOnly Property cross_m() As Byte()
+        Friend ReadOnly Property Cursor_16() As Byte()
             Get
-                Dim obj As Object = ResourceManager.GetObject("cross_m", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("Cursor_16", resourceCulture)
                 Return CType(obj,Byte())
             End Get
         End Property
@@ -621,9 +171,9 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Byte[].
         '''</summary>
-        Friend ReadOnly Property cross_r() As Byte()
+        Friend ReadOnly Property Cursor_17() As Byte()
             Get
-                Dim obj As Object = ResourceManager.GetObject("cross_r", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("Cursor_17", resourceCulture)
                 Return CType(obj,Byte())
             End Get
         End Property
@@ -631,9 +181,9 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Byte[].
         '''</summary>
-        Friend ReadOnly Property cross_rl() As Byte()
+        Friend ReadOnly Property Cursor_18() As Byte()
             Get
-                Dim obj As Object = ResourceManager.GetObject("cross_rl", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("Cursor_18", resourceCulture)
                 Return CType(obj,Byte())
             End Get
         End Property
@@ -641,9 +191,179 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Byte[].
         '''</summary>
-        Friend ReadOnly Property cross_rm() As Byte()
+        Friend ReadOnly Property Cursor_19() As Byte()
             Get
-                Dim obj As Object = ResourceManager.GetObject("cross_rm", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("Cursor_19", resourceCulture)
+                Return CType(obj,Byte())
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Byte[].
+        '''</summary>
+        Friend ReadOnly Property Cursor_20() As Byte()
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Cursor_20", resourceCulture)
+                Return CType(obj,Byte())
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Byte[].
+        '''</summary>
+        Friend ReadOnly Property Cursor_21() As Byte()
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Cursor_21", resourceCulture)
+                Return CType(obj,Byte())
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Byte[].
+        '''</summary>
+        Friend ReadOnly Property Cursor_22() As Byte()
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Cursor_22", resourceCulture)
+                Return CType(obj,Byte())
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Byte[].
+        '''</summary>
+        Friend ReadOnly Property Cursor_23() As Byte()
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Cursor_23", resourceCulture)
+                Return CType(obj,Byte())
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Byte[].
+        '''</summary>
+        Friend ReadOnly Property Cursor_24() As Byte()
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Cursor_24", resourceCulture)
+                Return CType(obj,Byte())
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Byte[].
+        '''</summary>
+        Friend ReadOnly Property Cursor_25() As Byte()
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Cursor_25", resourceCulture)
+                Return CType(obj,Byte())
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Byte[].
+        '''</summary>
+        Friend ReadOnly Property Cursor_26() As Byte()
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Cursor_26", resourceCulture)
+                Return CType(obj,Byte())
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Byte[].
+        '''</summary>
+        Friend ReadOnly Property Cursor_27() As Byte()
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Cursor_27", resourceCulture)
+                Return CType(obj,Byte())
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Byte[].
+        '''</summary>
+        Friend ReadOnly Property Cursor_28() As Byte()
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Cursor_28", resourceCulture)
+                Return CType(obj,Byte())
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Byte[].
+        '''</summary>
+        Friend ReadOnly Property Cursor_3() As Byte()
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Cursor_3", resourceCulture)
+                Return CType(obj,Byte())
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Byte[].
+        '''</summary>
+        Friend ReadOnly Property Cursor_4() As Byte()
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Cursor_4", resourceCulture)
+                Return CType(obj,Byte())
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Byte[].
+        '''</summary>
+        Friend ReadOnly Property Cursor_5() As Byte()
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Cursor_5", resourceCulture)
+                Return CType(obj,Byte())
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Byte[].
+        '''</summary>
+        Friend ReadOnly Property Cursor_6() As Byte()
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Cursor_6", resourceCulture)
+                Return CType(obj,Byte())
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Byte[].
+        '''</summary>
+        Friend ReadOnly Property Cursor_7() As Byte()
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Cursor_7", resourceCulture)
+                Return CType(obj,Byte())
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Byte[].
+        '''</summary>
+        Friend ReadOnly Property Cursor_8() As Byte()
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Cursor_8", resourceCulture)
+                Return CType(obj,Byte())
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Byte[].
+        '''</summary>
+        Friend ReadOnly Property Cursor_9() As Byte()
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Cursor_9", resourceCulture)
+                Return CType(obj,Byte())
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Byte[].
+        '''</summary>
+        Friend ReadOnly Property CursorsXP() As Byte()
+            Get
+                Dim obj As Object = ResourceManager.GetObject("CursorsXP", resourceCulture)
                 Return CType(obj,Byte())
             End Get
         End Property
@@ -660,619 +380,9 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Byte[].
         '''</summary>
-        Friend ReadOnly Property dinosau2() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("dinosau2", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property dinosaur() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("dinosaur", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property drum() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("drum", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property fillitup() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("fillitup", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
         Friend ReadOnly Property flourish() As Byte()
             Get
                 Dim obj As Object = ResourceManager.GetObject("flourish", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property hand() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("hand", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property handapst() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("handapst", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property handnesw() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("handnesw", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property handno() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("handno", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property handns() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("handns", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property handnwse() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("handnwse", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property handwait() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("handwait", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property handwe() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("handwe", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property harrow() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("harrow", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property hcross() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("hcross", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property help_i() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("help_i", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property help_il() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("help_il", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property help_im() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("help_im", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property help_l() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("help_l", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property help_m() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("help_m", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property help_r() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("help_r", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property help_rl() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("help_rl", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property help_rm() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("help_rm", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property hibeam() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("hibeam", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property hmove() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("hmove", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property hnesw() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("hnesw", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property hnodrop() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("hnodrop", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property hns() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("hns", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property hnwse() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("hnwse", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property horse() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("horse", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property hourgla2() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("hourgla2", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property hourgla3() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("hourgla3", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property hourglas() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("hourglas", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property hwe() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("hwe", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property lappstrt() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("lappstrt", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property larrow() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("larrow", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property lcross() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("lcross", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property libeam() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("libeam", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property lmove() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("lmove", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property lnesw() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("lnesw", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property lnodrop() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("lnodrop", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property lns() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("lns", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property lnwse() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("lnwse", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property lwait() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("lwait", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property lwe() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("lwe", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property metronom() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("metronom", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property move_i() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("move_i", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property move_il() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("move_il", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property move_im() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("move_im", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property move_l() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("move_l", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property move_m() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("move_m", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property move_r() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("move_r", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property move_rl() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("move_rl", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property move_rm() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("move_rm", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property no_i() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("no_i", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property no_il() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("no_il", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property no_im() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("no_im", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property no_l() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("no_l", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property no_m() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("no_m", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property no_r() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("no_r", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property no_rl() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("no_rl", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property no_rm() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("no_rm", resourceCulture)
                 Return CType(obj,Byte())
             End Get
         End Property
@@ -1292,116 +402,6 @@ Namespace My.Resources
         Friend ReadOnly Property onestop() As Byte()
             Get
                 Dim obj As Object = ResourceManager.GetObject("onestop", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property pen_i() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("pen_i", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property pen_il() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("pen_il", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property pen_im() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("pen_im", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property pen_l() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("pen_l", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property pen_m() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("pen_m", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property pen_r() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("pen_r", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property pen_rl() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("pen_rl", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property pen_rm() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("pen_rm", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property piano() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("piano", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property rainbow() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("rainbow", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property raindrop() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("raindrop", resourceCulture)
                 Return CType(obj,Byte())
             End Get
         End Property
@@ -3864,381 +2864,11 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property size1_i() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("size1_i", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property size1_il() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("size1_il", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property size1_im() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("size1_im", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property size1_l() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("size1_l", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property size1_m() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("size1_m", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property size1_r() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("size1_r", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property size1_rl() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("size1_rl", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property size1_rm() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("size1_rm", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property size2_i() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("size2_i", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property size2_il() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("size2_il", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property size2_im() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("size2_im", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property size2_l() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("size2_l", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property size2_m() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("size2_m", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property size2_r() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("size2_r", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property size2_rl() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("size2_rl", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property size2_rm() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("size2_rm", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property size3_i() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("size3_i", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property size3_il() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("size3_il", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property size3_im() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("size3_im", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property size3_l() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("size3_l", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property size3_m() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("size3_m", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property size3_r() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("size3_r", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property size3_rl() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("size3_rl", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property size3_rm() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("size3_rm", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property size4_i() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("size4_i", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property size4_il() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("size4_il", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property size4_im() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("size4_im", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property size4_l() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("size4_l", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property size4_m() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("size4_m", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property size4_r() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("size4_r", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property size4_rl() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("size4_rl", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property size4_rm() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("size4_rm", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property sizenesw() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("sizenesw", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property sizens() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("sizens", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property sizenwse() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("sizenwse", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property sizewe() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("sizewe", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
         '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         '''</summary>
         Friend ReadOnly Property start() As System.IO.UnmanagedMemoryStream
             Get
                 Return ResourceManager.GetStream("start", resourceCulture)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property stopwtch() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("stopwtch", resourceCulture)
-                Return CType(obj,Byte())
             End Get
         End Property
         
@@ -4261,192 +2891,12 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property town() As Byte()
+        Friend ReadOnly Property windows() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("town", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property up_i() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("up_i", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property up_il() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("up_il", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property up_im() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("up_im", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property up_l() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("up_l", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property up_m() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("up_m", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property up_r() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("up_r", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property up_rl() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("up_rl", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property up_rm() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("up_rm", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property vanisher() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("vanisher", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property wagtail() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("wagtail", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property wait_i() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("wait_i", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property wait_il() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("wait_il", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property wait_im() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("wait_im", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property wait_l() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("wait_l", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property wait_m() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("wait_m", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property wait_r() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("wait_r", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property wait_rl() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("wait_rl", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property wait_rm() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("wait_rm", resourceCulture)
-                Return CType(obj,Byte())
+                Dim obj As Object = ResourceManager.GetObject("windows", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
         
@@ -4691,6 +3141,16 @@ Namespace My.Resources
         Friend ReadOnly Property Windows_XP_Startup() As System.IO.UnmanagedMemoryStream
             Get
                 Return ResourceManager.GetStream("Windows_XP_Startup", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property windows_xp1() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("windows_xp1", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
     End Module
