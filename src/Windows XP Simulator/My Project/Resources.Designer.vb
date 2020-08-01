@@ -3147,9 +3147,29 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property windows_xp_withtext() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("windows_xp_withtext", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property windows_xp1() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("windows_xp1", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property WindowsXPStart() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("WindowsXPStart", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

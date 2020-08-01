@@ -77,15 +77,21 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Misc\SplashScreen.Designer.vb">
+      <DependentUpon>SplashScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Misc\SplashScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="WinSimStartup.vb">
+    <Compile Include="Misc\WinSimStartup.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="WinSimStartup.Designer.vb">
+    <Compile Include="Misc\WinSimStartup.Designer.vb">
       <DependentUpon>WinSimStartup.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
@@ -102,7 +108,10 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="WinSimStartup.resx">
+    <EmbeddedResource Include="Misc\SplashScreen.resx">
+      <DependentUpon>SplashScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Misc\WinSimStartup.resx">
       <DependentUpon>WinSimStartup.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -971,9 +980,6 @@
     <None Include="Resources\Windows xp.ico" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadata Include="Connected Services\" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\ExplorerStatusChanger\ExplorerStatusChanger.vbproj">
       <Project>{fa0e4df8-1cb9-4171-9cd4-38691d2dba9e}</Project>
       <Name>ExplorerStatusChanger</Name>
@@ -1074,6 +1080,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Cursor_12.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WindowsXPStart.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows-xp_withtext.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

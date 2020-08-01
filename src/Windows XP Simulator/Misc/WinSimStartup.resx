@@ -117,6 +117,11 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="startup_lbl.Text" xml:space="preserve">
+    <value>Welcome to Windows XP Simulator! This simulator was built by TheCrafters001.
+TheCrafters001 doesn't own Windows, or the Windows Logo/Flag. Microsoft owns windows, and all rights go to them for the logo and flag.
+All sounds, cursors, and Icons (excuding the icon above) come directly from Windows XP!</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

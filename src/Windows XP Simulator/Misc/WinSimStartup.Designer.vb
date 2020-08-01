@@ -24,12 +24,14 @@ Partial Class WinSimStartup
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(WinSimStartup))
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.start_btn = New System.Windows.Forms.Button()
+        Me.startup_lbl = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.Windows_XP_Simulator.My.Resources.Resources.windows_xp1
+        Me.PictureBox1.Image = Global.Windows_XP_Simulator.My.Resources.Resources.windows_xp_withtext
         Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(411, 276)
@@ -37,15 +39,35 @@ Partial Class WinSimStartup
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
+        'start_btn
+        '
+        Me.start_btn.Location = New System.Drawing.Point(323, 372)
+        Me.start_btn.Name = "start_btn"
+        Me.start_btn.Size = New System.Drawing.Size(75, 23)
+        Me.start_btn.TabIndex = 1
+        Me.start_btn.Text = "Start"
+        Me.start_btn.UseVisualStyleBackColor = True
+        '
+        'startup_lbl
+        '
+        Me.startup_lbl.Location = New System.Drawing.Point(12, 279)
+        Me.startup_lbl.Name = "startup_lbl"
+        Me.startup_lbl.Size = New System.Drawing.Size(386, 90)
+        Me.startup_lbl.TabIndex = 2
+        Me.startup_lbl.Text = resources.GetString("startup_lbl.Text")
+        '
         'WinSimStartup
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(410, 407)
+        Me.Controls.Add(Me.startup_lbl)
+        Me.Controls.Add(Me.start_btn)
         Me.Controls.Add(Me.PictureBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "WinSimStartup"
         Me.ShowIcon = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
@@ -56,4 +78,6 @@ Partial Class WinSimStartup
     End Sub
 
     Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents start_btn As Button
+    Friend WithEvents startup_lbl As Label
 End Class
