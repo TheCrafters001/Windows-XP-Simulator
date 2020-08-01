@@ -1,0 +1,1771 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="appstar2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appstar2.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="appstar3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appstar3.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="appstart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appstart.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="arrow_i" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_i.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="arrow_il" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_il.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="arrow_im" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_im.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="arrow_l" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_l.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="arrow_m" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_m.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="arrow_r" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_r.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="arrow_rl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_rl.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="arrow_rm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_rm.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="banana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\banana.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="barber" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barber.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="beam_i" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\beam_i.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="beam_il" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\beam_il.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="beam_im" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\beam_im.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="beam_l" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\beam_l.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="beam_m" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\beam_m.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="beam_r" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\beam_r.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="beam_rl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\beam_rl.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="beam_rm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\beam_rm.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="busy_i" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\busy_i.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="busy_il" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\busy_il.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="busy_im" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\busy_im.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="busy_l" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\busy_l.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="busy_m" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\busy_m.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="busy_r" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\busy_r.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="busy_rl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\busy_rl.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="busy_rm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\busy_rm.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chimes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chimes.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chord" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chord.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="coin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coin.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="counter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\counter.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cross" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cross.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cross_i" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cross_i.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cross_il" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cross_il.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cross_im" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cross_im.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cross_l" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cross_l.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cross_m" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cross_m.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cross_r" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cross_r.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cross_rl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cross_rl.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cross_rm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cross_rm.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ding" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ding.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dinosau2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dinosau2.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dinosaur" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dinosaur.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="drum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\drum.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="fillitup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fillitup.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="flourish" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flourish.mid;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hand.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="handapst" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\handapst.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="handnesw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\handnesw.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="handno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\handno.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="handns" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\handns.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="handnwse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\handnwse.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="handwait" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\handwait.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="handwe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\handwe.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="harrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\harrow.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hcross" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hcross.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="help_i" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\help_i.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="help_il" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\help_il.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="help_im" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\help_im.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="help_l" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\help_l.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="help_m" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\help_m.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="help_r" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\help_r.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="help_rl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\help_rl.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="help_rm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\help_rm.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hibeam" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hibeam.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hmove" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hmove.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hnesw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hnesw.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hnodrop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hnodrop.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hns" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hns.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hnwse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hnwse.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="horse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\horse.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hourgla2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hourgla2.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hourgla3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hourgla3.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hourglas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hourglas.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hwe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hwe.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lappstrt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lappstrt.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="larrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\larrow.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lcross" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lcross.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="libeam" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\libeam.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lmove" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lmove.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lnesw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lnesw.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lnodrop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lnodrop.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lns" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lns.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lnwse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lnwse.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lwait" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lwait.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lwe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lwe.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="metronom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\metronom.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="move_i" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\move_i.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="move_il" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\move_il.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="move_im" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\move_im.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="move_l" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\move_l.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="move_m" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\move_m.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="move_r" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\move_r.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="move_rl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\move_rl.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="move_rm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\move_rm.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="notify" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\notify.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="no_i" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\no_i.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="no_il" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\no_il.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="no_im" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\no_im.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="no_l" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\no_l.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="no_m" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\no_m.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="no_r" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\no_r.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="no_rl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\no_rl.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="no_rm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\no_rm.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="onestop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\onestop.mid;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pen_i" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pen_i.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pen_il" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pen_il.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pen_im" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pen_im.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pen_l" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pen_l.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pen_m" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pen_m.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pen_r" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pen_r.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pen_rl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pen_rl.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pen_rm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pen_rm.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="piano" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\piano.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rainbow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rainbow.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="raindrop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\raindrop.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="recycle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\recycle.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ringin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ringin.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ringout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ringout.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="shell32_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_1.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_10.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_1001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_1001.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="shell32_10011" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_1001.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_1002" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_1002.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="shell32_10021" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_1002.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_1003" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_1003.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="shell32_10031" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_1003.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_1004" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_1004.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="shell32_10041" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_1004.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_1005" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_1005.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="shell32_10051" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_1005.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_1006" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_1006.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_1007" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_1007.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_1008" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_1008.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_1009" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_1009.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_1010" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_1010.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_1011" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_1011.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_11.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_12.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_13.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_133" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_133.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_134" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_134.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_135" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_135.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_137" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_137.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_138" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_138.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_139" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_139.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_14.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_140.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_141" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_141.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_142" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_142.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_143" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_143.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_144" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_144.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_145" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_145.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_146" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_146.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_147" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_147.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_148" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_148.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_15.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_151" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_151.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_152" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_152.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_153" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_153.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_154" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_154.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_155" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_155.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_156" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_156.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_157" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_157.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_160.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_161.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_165" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_165.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_166" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_166.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_167" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_167.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16710" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16710.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16715" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16715.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16717" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16717.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16718" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16718.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16721" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16721.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16739" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16739.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16741" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16741.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16742" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16742.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16743" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16743.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16744" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16744.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16746" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16746.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16747" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16747.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16748" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16748.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16749" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16749.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16750" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16750.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16751" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16751.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16752" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16752.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16753" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16753.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16754" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16754.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16755" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16755.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16756" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16756.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16757" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16757.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16758" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16758.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16759" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16759.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16760" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16760.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16761" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16761.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16762" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16762.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16763" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16763.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16767" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16767.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16768" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16768.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16769" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16769.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16770" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16770.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16771" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16771.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16772" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16772.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16773" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16773.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16774" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16774.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16775" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16775.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16776" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16776.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16777" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16777.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16778" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16778.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16779" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16779.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16780" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16780.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16781" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16781.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16782" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16782.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16783" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16783.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16784" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16784.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16785" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16785.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16786" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16786.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16787" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16787.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16788" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16788.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16789" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16789.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16790" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16790.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16791" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16791.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16792" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16792.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16793" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16793.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16794" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16794.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16795" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16795.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16796" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16796.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16797" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16797.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16798" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16798.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16799" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16799.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_168" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_168.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16800" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16800.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16801" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16801.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16802" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16802.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16803" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16803.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16804" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16804.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16806" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16806.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16807" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16807.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16810" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16810.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16811" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16811.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16812" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16812.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16813" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16813.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16814" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16814.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16818" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16818.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16819" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16819.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16820" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16820.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16821" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16821.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16822" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16822.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16823" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16823.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16824" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16824.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_16825" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16825.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_169" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_169.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_17.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_170" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_170.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_171" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_171.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_172" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_172.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_173" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_173.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_174" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_174.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_175" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_175.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_176" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_176.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_177" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_177.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_178" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_178.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_179" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_179.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_18.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_180" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_180.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_181" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_181.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_182" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_182.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_183" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_183.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_184" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_184.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_185" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_185.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_186" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_186.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_187" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_187.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_19.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_191" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_191.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_192" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_192.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_193" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_193.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_194" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_194.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_196" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_196.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_197" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_197.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_198" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_198.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_199" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_199.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_2.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_20.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_200.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_21.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_210" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_210.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_22.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_220" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_220.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_221" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_221.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_222" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_222.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_223" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_223.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_224" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_224.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_225" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_225.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_226" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_226.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_227" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_227.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_228" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_228.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_229" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_229.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_23.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_230" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_230.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_231" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_231.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_232" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_232.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_233" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_233.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_234" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_234.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_235" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_235.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_236" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_236.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_237" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_237.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_238" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_238.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_239" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_239.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_24.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_240" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_240.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_241.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_242" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_242.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_243" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_243.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_244" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_244.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_245" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_245.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_246" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_246.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_247" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_247.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_248" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_248.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_249" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_249.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_25.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_250" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_250.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_251" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_251.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_252" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_252.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_253" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_253.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_254" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_254.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_255" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_255.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_256.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_257" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_257.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_258" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_258.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_259" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_259.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_26.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_260" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_260.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_261" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_261.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_262" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_262.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_263" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_263.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_264" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_264.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_265" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_265.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_266" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_266.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_267" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_267.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_268" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_268.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_269" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_269.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_27.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_270" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_270.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_271" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_271.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_272" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_272.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_273" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_273.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_274" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_274.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_275" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_275.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_276" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_276.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_277" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_277.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_278" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_278.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_279" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_279.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_28.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_281.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_282" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_282.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_283" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_283.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_284" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_284.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_289" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_289.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_29.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_290" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_290.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_291" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_291.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_292" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_292.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_293" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_293.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_294" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_294.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_295" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_295.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_296" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_296.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_297" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_297.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_298" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_298.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_299" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_299.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_3.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_30.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_300" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_300.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_301" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_301.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_302" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_302.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_303" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_303.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_304" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_304.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_305" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_305.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_306" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_306.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_307" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_307.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_308" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_308.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_309" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_309.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_31.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_310" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_310.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_311" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_311.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_312" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_312.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_313" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_313.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_314" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_314.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_315" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_315.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_316" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_316.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_317" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_317.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_318" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_318.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_319" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_319.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_32.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_320" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_320.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_321.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_322" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_322.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_323" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_323.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_324" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_324.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_325" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_325.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_326" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_326.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_327" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_327.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_328" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_328.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_329" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_329.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_33.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_330" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_330.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_331" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_331.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_337" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_337.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_338" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_338.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_34.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_35.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_36.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_37.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_38.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_39.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_4.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_40.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_41.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_42.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_43.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_44" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_44.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_45.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_46" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_46.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_47" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_47.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_48.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_49" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_49.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_5.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_50.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_51.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_512.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_52.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_53" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_53.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_54" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_54.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_6.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_62998" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_62998.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_62999" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_62999.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_63000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_63000.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_63001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_63001.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_63008" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_63008.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_63009" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_63009.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_63010" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_63010.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_63011" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_63011.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_7.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_8.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_8240" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_8240.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shell32_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_9.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="size1_i" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\size1_i.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="size1_il" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\size1_il.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="size1_im" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\size1_im.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="size1_l" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\size1_l.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="size1_m" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\size1_m.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="size1_r" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\size1_r.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="size1_rl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\size1_rl.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="size1_rm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\size1_rm.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="size2_i" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\size2_i.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="size2_il" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\size2_il.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="size2_im" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\size2_im.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="size2_l" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\size2_l.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="size2_m" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\size2_m.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="size2_r" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\size2_r.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="size2_rl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\size2_rl.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="size2_rm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\size2_rm.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="size3_i" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\size3_i.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="size3_il" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\size3_il.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="size3_im" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\size3_im.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="size3_l" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\size3_l.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="size3_m" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\size3_m.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="size3_r" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\size3_r.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="size3_rl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\size3_rl.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="size3_rm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\size3_rm.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="size4_i" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\size4_i.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="size4_il" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\size4_il.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="size4_im" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\size4_im.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="size4_l" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\size4_l.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="size4_m" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\size4_m.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="size4_r" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\size4_r.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="size4_rl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\size4_rl.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="size4_rm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\size4_rm.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sizenesw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sizenesw.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sizens" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sizens.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sizenwse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sizenwse.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sizewe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sizewe.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="start" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\start.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="stopwtch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stopwtch.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tada" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tada.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="title" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\title.wma;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="town" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\town.mid;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="up_i" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\up_i.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="up_il" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\up_il.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="up_im" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\up_im.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="up_l" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\up_l.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="up_m" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\up_m.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="up_r" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\up_r.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="up_rl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\up_rl.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="up_rm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\up_rm.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="vanisher" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vanisher.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="wagtail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wagtail.ani;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="wait_i" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wait_i.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="wait_il" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wait_il.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="wait_im" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wait_im.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="wait_l" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wait_l.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="wait_m" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wait_m.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="wait_r" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wait_r.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="wait_rl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wait_rl.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="wait_rm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wait_rm.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Windows_XP_Balloon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows XP Balloon.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Windows_XP_Battery_Critical" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows XP Battery Critical.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Windows_XP_Battery_Low" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows XP Battery Low.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Windows_XP_Critical_Stop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows XP Critical Stop.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Windows_XP_Default" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows XP Default.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Windows_XP_Ding" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows XP Ding.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Windows_XP_Error" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows XP Error.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Windows_XP_Exclamation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows XP Exclamation.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Windows_XP_Hardware_Fail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows XP Hardware Fail.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Windows_XP_Hardware_Insert" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows XP Hardware Insert.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Windows_XP_Hardware_Remove" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows XP Hardware Remove.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Windows_XP_Information_Bar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows XP Information Bar.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Windows_XP_Logoff_Sound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows XP Logoff Sound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Windows_XP_Logon_Sound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows XP Logon Sound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Windows_XP_Menu_Command" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows XP Menu Command.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Windows_XP_Minimize" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows XP Minimize.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Windows_XP_Notify" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows XP Notify.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Windows_XP_Pop_up_Blocked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows XP Pop-up Blocked.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Windows_XP_Print_complete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows XP Print complete.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Windows_XP_Recycle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows XP Recycle.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Windows_XP_Restore" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows XP Restore.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Windows_XP_Ringin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows XP Ringin.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Windows_XP_Ringout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows XP Ringout.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Windows_XP_Shutdown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows XP Shutdown.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Windows_XP_Start" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows XP Start.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Windows_XP_Startup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows XP Startup.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_3dgarro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3dgarro.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_3dgmove" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3dgmove.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_3dgnesw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3dgnesw.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_3dgno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3dgno.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_3dgns" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3dgns.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_3dgnwse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3dgnwse.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_3dgwe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3dgwe.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_3dsmove" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3dsmove.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_3dsns" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3dsns.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_3dsnwse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3dsnwse.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_3dwarro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3dwarro.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_3dwmove" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3dwmove.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_3dwnesw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3dwnesw.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_3dwno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3dwno.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_3dwns" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3dwns.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_3dwnwse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3dwnwse.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_3dwwe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3dwwe.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

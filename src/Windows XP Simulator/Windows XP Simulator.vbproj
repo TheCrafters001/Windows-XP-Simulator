@@ -1,0 +1,1705 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1C38EC44-08E5-4AA5-9309-D1326F04A177}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Windows_XP_Simulator.My.MyApplication</StartupObject>
+    <RootNamespace>Windows_XP_Simulator</RootNamespace>
+    <AssemblyName>Windows XP Simulator</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Windows XP Simulator.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Windows XP Simulator.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="Resources\appstar2.ani" />
+    <None Include="Resources\appstar3.ani" />
+    <None Include="Resources\appstart.ani" />
+    <None Include="Resources\banana.ani" />
+    <None Include="Resources\barber.ani" />
+    <None Include="Resources\coin.ani" />
+    <None Include="Resources\counter.ani" />
+    <None Include="Resources\dinosau2.ani" />
+    <None Include="Resources\dinosaur.ani" />
+    <None Include="Resources\drum.ani" />
+    <None Include="Resources\fillitup.ani" />
+    <None Include="Resources\hand.ani" />
+    <None Include="Resources\handapst.ani" />
+    <None Include="Resources\handnesw.ani" />
+    <None Include="Resources\handno.ani" />
+    <None Include="Resources\handns.ani" />
+    <None Include="Resources\handnwse.ani" />
+    <None Include="Resources\handwait.ani" />
+    <None Include="Resources\handwe.ani" />
+    <None Include="Resources\horse.ani" />
+    <None Include="Resources\hourgla2.ani" />
+    <None Include="Resources\hourgla3.ani" />
+    <None Include="Resources\hourglas.ani" />
+    <None Include="Resources\metronom.ani" />
+    <None Include="Resources\piano.ani" />
+    <None Include="Resources\rainbow.ani" />
+    <None Include="Resources\raindrop.ani" />
+    <None Include="Resources\sizenesw.ani" />
+    <None Include="Resources\sizens.ani" />
+    <None Include="Resources\sizenwse.ani" />
+    <None Include="Resources\sizewe.ani" />
+    <None Include="Resources\stopwtch.ani" />
+    <None Include="Resources\vanisher.ani" />
+    <None Include="Resources\wagtail.ani" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_10.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_11.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_12.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_13.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_14.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_15.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_17.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_18.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_19.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_20.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_21.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_22.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_23.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_24.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_25.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_26.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_27.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_28.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_30.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_31.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_32.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_33.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_34.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_35.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_36.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_37.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_38.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_39.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_40.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_41.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_42.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_43.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_44.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_45.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_46.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_47.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_48.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_49.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_50.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_51.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_52.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_53.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_54.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_133.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_134.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_135.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_137.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_138.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_139.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_140.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_141.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_142.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_143.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_144.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_145.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_146.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_147.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_148.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_151.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_152.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_153.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_154.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_155.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_156.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_157.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_160.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_161.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_165.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_166.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_167.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_168.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_169.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_170.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_171.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_172.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_173.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_174.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_175.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_176.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_177.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_178.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_179.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_180.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_181.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_182.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_183.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_184.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_185.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_186.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_187.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_191.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_192.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_193.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_194.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_196.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_197.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_198.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_199.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_200.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_210.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_220.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_221.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_222.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_223.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_224.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_225.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_226.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_227.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_228.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_229.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_230.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_231.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_232.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_233.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_234.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_235.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_236.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_237.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_238.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_239.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_240.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_241.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_242.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_243.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_244.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_245.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_246.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_247.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_248.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_249.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_250.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_251.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_252.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_253.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_254.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_255.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_256.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_257.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_258.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_259.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_260.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_261.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_262.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_263.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_264.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_265.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_266.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_267.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_268.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_269.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_270.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_271.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_272.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_273.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_274.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_275.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_276.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_277.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_278.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_279.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_281.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_282.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_283.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_284.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_289.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_290.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_291.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_292.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_293.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_294.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_295.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_296.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_297.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_298.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_299.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_300.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_301.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_302.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_303.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_304.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_305.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_306.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_307.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_308.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_309.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_310.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_311.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_312.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_313.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_314.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_315.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_316.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_317.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_318.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_319.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_320.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_321.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_322.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_323.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_324.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_325.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_326.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_327.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_328.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_329.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_330.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_331.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_337.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_338.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_512.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_1001.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_1001.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_1002.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_1002.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_1003.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_1003.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_1004.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_1004.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_1005.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_1005.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_1006.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_1007.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_1008.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_1009.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_1010.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_1011.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_8240.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16710.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16715.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16717.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16718.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16721.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16739.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16741.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16742.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16743.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16744.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16746.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16747.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16748.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16749.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16750.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16751.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16752.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16753.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16754.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16755.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16756.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16757.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16758.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16759.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16760.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16761.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16762.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16763.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16767.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16768.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16769.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16770.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16771.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16772.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16773.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16774.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16775.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16776.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16777.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16778.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16779.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16780.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16781.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16782.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16783.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16784.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16785.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16786.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16787.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16788.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16789.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16790.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16791.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16792.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16793.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16794.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16795.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16796.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16797.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16798.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16799.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16800.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16801.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16802.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16803.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16804.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16806.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16807.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16810.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16811.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16812.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16813.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16814.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16818.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16819.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16820.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16821.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16822.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16823.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16824.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_16825.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_62998.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_62999.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_63000.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_63001.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_63008.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_63009.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_63010.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_63011.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_3.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_4.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_5.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_6.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_7.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_8.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_9.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flourish.mid" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notify.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\onestop.mid" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\recycle.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ringin.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ringout.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tada.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\town.mid" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows XP Balloon.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows XP Battery Critical.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows XP Battery Low.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows XP Critical Stop.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows XP Default.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows XP Ding.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows XP Error.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows XP Exclamation.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows XP Hardware Fail.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows XP Hardware Insert.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows XP Hardware Remove.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows XP Information Bar.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows XP Logoff Sound.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows XP Logon Sound.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows XP Menu Command.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows XP Minimize.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows XP Notify.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows XP Pop-up Blocked.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows XP Print complete.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows XP Recycle.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows XP Restore.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows XP Ringin.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows XP Ringout.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows XP Shutdown.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows XP Start.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows XP Startup.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chimes.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chord.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ding.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3dgwe.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3dsmove.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3dsns.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3dsnwse.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3dwarro.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3dwmove.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3dwnesw.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3dwno.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3dwns.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3dwnwse.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3dwwe.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_i.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_il.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_im.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_l.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_m.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_r.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_rl.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_rm.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beam_i.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beam_il.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beam_im.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beam_l.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beam_m.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beam_r.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beam_rl.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beam_rm.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\busy_i.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\busy_il.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\busy_im.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\busy_l.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\busy_m.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\busy_r.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\busy_rl.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\busy_rm.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross_i.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross_il.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross_im.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross_l.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross_m.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross_r.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross_rl.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross_rm.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\harrow.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hcross.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help_i.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help_il.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help_im.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help_l.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help_m.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help_r.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help_rl.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help_rm.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hibeam.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hmove.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hnesw.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hnodrop.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hns.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hnwse.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hwe.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lappstrt.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\larrow.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lcross.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\libeam.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lmove.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lnesw.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lnodrop.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lns.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lnwse.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lwait.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lwe.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\move_i.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\move_il.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\move_im.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\move_l.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\move_m.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\move_r.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\move_rl.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\move_rm.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\no_i.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\no_il.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\no_im.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\no_l.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\no_m.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\no_r.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\no_rl.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\no_rm.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pen_i.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pen_il.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pen_im.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pen_l.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pen_m.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pen_r.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pen_rl.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pen_rm.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\size1_i.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\size1_il.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\size1_im.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\size1_l.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\size1_m.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\size1_r.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\size1_rl.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\size1_rm.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\size2_i.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\size2_il.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\size2_im.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\size2_l.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\size2_m.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\size2_r.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\size2_rl.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\size2_rm.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\size3_i.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\size3_il.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\size3_im.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\size3_l.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\size3_m.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\size3_r.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\size3_rl.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\size3_rm.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\size4_i.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\size4_il.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\size4_im.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\size4_l.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\size4_m.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\size4_r.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\size4_rl.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\size4_rm.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\up_i.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\up_il.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\up_im.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\up_l.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\up_m.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\up_r.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\up_rl.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\up_rm.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wait_i.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wait_il.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wait_im.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wait_l.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wait_m.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wait_r.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wait_rl.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wait_rm.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3dgarro.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3dgmove.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3dgnesw.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3dgno.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3dgns.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3dgnwse.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\title.wma" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
