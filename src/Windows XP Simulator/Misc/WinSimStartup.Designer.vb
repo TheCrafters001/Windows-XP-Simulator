@@ -26,6 +26,8 @@ Partial Class WinSimStartup
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.start_btn = New System.Windows.Forms.Button()
         Me.startup_lbl = New System.Windows.Forms.Label()
+        Me.install_btn = New System.Windows.Forms.Button()
+        Me.toggleMusic = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -45,7 +47,7 @@ Partial Class WinSimStartup
         Me.start_btn.Name = "start_btn"
         Me.start_btn.Size = New System.Drawing.Size(75, 23)
         Me.start_btn.TabIndex = 1
-        Me.start_btn.Text = "Start"
+        Me.start_btn.Text = "Start Now"
         Me.start_btn.UseVisualStyleBackColor = True
         '
         'startup_lbl
@@ -56,11 +58,31 @@ Partial Class WinSimStartup
         Me.startup_lbl.TabIndex = 2
         Me.startup_lbl.Text = resources.GetString("startup_lbl.Text")
         '
+        'install_btn
+        '
+        Me.install_btn.Location = New System.Drawing.Point(12, 372)
+        Me.install_btn.Name = "install_btn"
+        Me.install_btn.Size = New System.Drawing.Size(105, 23)
+        Me.install_btn.TabIndex = 3
+        Me.install_btn.Text = "Practice Installing"
+        Me.install_btn.UseVisualStyleBackColor = True
+        '
+        'toggleMusic
+        '
+        Me.toggleMusic.Location = New System.Drawing.Point(0, 0)
+        Me.toggleMusic.Name = "toggleMusic"
+        Me.toggleMusic.Size = New System.Drawing.Size(81, 23)
+        Me.toggleMusic.TabIndex = 4
+        Me.toggleMusic.Text = "Music Toggle"
+        Me.toggleMusic.UseVisualStyleBackColor = True
+        '
         'WinSimStartup
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(410, 407)
+        Me.Controls.Add(Me.toggleMusic)
+        Me.Controls.Add(Me.install_btn)
         Me.Controls.Add(Me.startup_lbl)
         Me.Controls.Add(Me.start_btn)
         Me.Controls.Add(Me.PictureBox1)
@@ -80,4 +102,6 @@ Partial Class WinSimStartup
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents start_btn As Button
     Friend WithEvents startup_lbl As Label
+    Friend WithEvents install_btn As Button
+    Friend WithEvents toggleMusic As Button
 End Class

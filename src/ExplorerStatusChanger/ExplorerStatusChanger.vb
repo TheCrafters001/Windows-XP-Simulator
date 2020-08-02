@@ -1,8 +1,8 @@
 ﻿Public Class ExplorerStatusChanger
     Public Shared Sub KillExplorer()
-        Shell("taskkill /f /im explorer.exe")
+        shell("taskkill /f /im explorer.exe")
     End Sub
     Public Shared Sub StartExplorer()
-        Shell("explorer.exe")
+        System.Diagnostics.Process.Start("explorer.exe")
     End Sub
 End Class

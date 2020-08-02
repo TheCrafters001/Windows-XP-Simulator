@@ -3,8 +3,8 @@
   <MySubMain>true</MySubMain>
   <MainForm>WinSimStartup</MainForm>
   <SingleInstance>false</SingleInstance>
-  <ShutdownMode>0</ShutdownMode>
-  <EnableVisualStyles>true</EnableVisualStyles>
+  <ShutdownMode>1</ShutdownMode>
+  <EnableVisualStyles>false</EnableVisualStyles>
   <AuthenticationMode>0</AuthenticationMode>
   <SplashScreen>SplashScreen</SplashScreen>
   <SaveMySettingsOnExit>true</SaveMySettingsOnExit>
