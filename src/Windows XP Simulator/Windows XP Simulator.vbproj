@@ -115,6 +115,12 @@
     <Compile Include="Simulator\Background\Background.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Simulator\Boot\Panel_Startingup.Designer.vb">
+      <DependentUpon>Panel_Startingup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Simulator\Boot\Panel_Startingup.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Simulator\Boot\SimulatorBoot_noinstall.Designer.vb">
       <DependentUpon>SimulatorBoot_noinstall.vb</DependentUpon>
     </Compile>
@@ -143,6 +149,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Simulator\Background\Background.resx">
       <DependentUpon>Background.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Simulator\Boot\Panel_Startingup.resx">
+      <DependentUpon>Panel_Startingup.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Simulator\Boot\SimulatorBoot_noinstall.resx">
       <DependentUpon>SimulatorBoot_noinstall.vb</DependentUpon>
@@ -1123,6 +1132,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\d8wie3s-c2876942-837b-4c19-9940-99ca4c0ec1d1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\XP_Animated.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\XP.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

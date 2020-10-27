@@ -34,16 +34,18 @@ Partial Class login
         '
         'PictureBox1
         '
+        Me.PictureBox1.Image = Global.Windows_XP_Simulator.My.Resources.Resources.XP
         Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(455, 114)
+        Me.PictureBox1.Size = New System.Drawing.Size(411, 93)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
         'userName_lbl
         '
         Me.userName_lbl.AutoSize = True
-        Me.userName_lbl.Location = New System.Drawing.Point(12, 136)
+        Me.userName_lbl.Location = New System.Drawing.Point(12, 112)
         Me.userName_lbl.Name = "userName_lbl"
         Me.userName_lbl.Size = New System.Drawing.Size(61, 13)
         Me.userName_lbl.TabIndex = 1
@@ -51,14 +53,14 @@ Partial Class login
         '
         'userName_txtBox
         '
-        Me.userName_txtBox.Location = New System.Drawing.Point(118, 133)
+        Me.userName_txtBox.Location = New System.Drawing.Point(118, 109)
         Me.userName_txtBox.Name = "userName_txtBox"
         Me.userName_txtBox.Size = New System.Drawing.Size(234, 20)
         Me.userName_txtBox.TabIndex = 2
         '
         'passWord_txtBox
         '
-        Me.passWord_txtBox.Location = New System.Drawing.Point(118, 159)
+        Me.passWord_txtBox.Location = New System.Drawing.Point(118, 135)
         Me.passWord_txtBox.Name = "passWord_txtBox"
         Me.passWord_txtBox.Size = New System.Drawing.Size(234, 20)
         Me.passWord_txtBox.TabIndex = 4
@@ -67,7 +69,7 @@ Partial Class login
         'passWord_lbl
         '
         Me.passWord_lbl.AutoSize = True
-        Me.passWord_lbl.Location = New System.Drawing.Point(12, 162)
+        Me.passWord_lbl.Location = New System.Drawing.Point(12, 138)
         Me.passWord_lbl.Name = "passWord_lbl"
         Me.passWord_lbl.Size = New System.Drawing.Size(56, 13)
         Me.passWord_lbl.TabIndex = 3
@@ -75,7 +77,8 @@ Partial Class login
         '
         'ok_btn
         '
-        Me.ok_btn.Location = New System.Drawing.Point(286, 226)
+        Me.ok_btn.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ok_btn.Location = New System.Drawing.Point(243, 167)
         Me.ok_btn.Name = "ok_btn"
         Me.ok_btn.Size = New System.Drawing.Size(75, 23)
         Me.ok_btn.TabIndex = 5
@@ -84,9 +87,10 @@ Partial Class login
         '
         'cancel_btn
         '
+        Me.cancel_btn.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.cancel_btn.DialogResult = System.Windows.Forms.DialogResult.Cancel
         Me.cancel_btn.Enabled = False
-        Me.cancel_btn.Location = New System.Drawing.Point(367, 226)
+        Me.cancel_btn.Location = New System.Drawing.Point(324, 167)
         Me.cancel_btn.Name = "cancel_btn"
         Me.cancel_btn.Size = New System.Drawing.Size(75, 23)
         Me.cancel_btn.TabIndex = 6
@@ -99,7 +103,7 @@ Partial Class login
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.CancelButton = Me.cancel_btn
-        Me.ClientSize = New System.Drawing.Size(454, 261)
+        Me.ClientSize = New System.Drawing.Size(411, 202)
         Me.ControlBox = False
         Me.Controls.Add(Me.cancel_btn)
         Me.Controls.Add(Me.ok_btn)
@@ -111,7 +115,7 @@ Partial Class login
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "login"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Logon to Windows"
+        Me.Text = "Log On to Windows"
         Me.TopMost = True
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)

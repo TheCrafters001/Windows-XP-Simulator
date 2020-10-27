@@ -3,6 +3,6 @@
         Dim idleMouse As New System.IO.MemoryStream(My.Resources.Cursor_1)
         Me.Cursor = New Cursor(idleMouse)
         Me.BackColor = Color.FromArgb(90, 126, 200)
-        login.Show()
+        Panel_Startingup.Show()
     End Sub
 End Class
